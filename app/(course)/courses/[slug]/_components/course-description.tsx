@@ -8,7 +8,7 @@ export default function CourseDescription({ course }) {
   const toggleDescription = () => setIsExpanded(!isExpanded);
 
   // Limit the initial text shown
-  const shortDescription = course.description.substring(0, 1200); // Adjust length as needed
+  const shortDescription = course.description?.substring(0, 1200); // Adjust length as needed
 
   return (
     <div className="pt-6">
