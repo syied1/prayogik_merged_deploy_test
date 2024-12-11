@@ -1,17 +1,7 @@
-"use client";
+import React from "react";
 
-import NextNProgress from "nextjs-progressbar";
-
-const ProgressBar = () => {
-  return (
-    <NextNProgress
-      color="#8956FF"
-      startPosition={0.3}
-      stopDelayMs={200}
-      height={3}
-      options={{ showSpinner: false }}
-    />
-  );
+const Progress = () => {
+  return <div></div>;
 };
 
-export default ProgressBar;
+export default Progress;

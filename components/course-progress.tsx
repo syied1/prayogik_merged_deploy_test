@@ -1,7 +1,7 @@
 // @ts-nocheck
 
-import ProgressBar, { Progress } from "@/components/ui/progress";
 import { cn } from "@/lib/utils";
+import Progress from "./ui/progress";
 
 interface CourseProgressProps {
   value: number;
@@ -37,7 +37,7 @@ export const CourseProgress = ({
 
   return (
     <>
-      <ProgressBar />
+      <Progress />
       <p
         className={cn(
           "font-medium mt-2 text-sky-700",
